@@ -1,0 +1,277 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (ros2_parameters) JobQueued: {'identifier': 'ros2_parameters', 'dependencies': OrderedDict()}
+[0.000640] (ros2_parameters) JobStarted: {'identifier': 'ros2_parameters'}
+[0.028629] (ros2_parameters) JobProgress: {'identifier': 'ros2_parameters', 'progress': 'cmake'}
+[0.034633] (ros2_parameters) Command: {'cmd': ['/usr/bin/cmake', '/home/varshini/ros2_ws/src/ros2_parameters', '-DCMAKE_INSTALL_PREFIX=/home/varshini/ros2_ws/install/ros2_parameters'], 'cwd': '/home/varshini/ros2_ws/build/ros2_parameters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'varshini', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1329', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/varshini', 'OLDPWD': '/home/varshini/ros2_ws/src/ros2_parameters', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/varshini/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'varshini', 'WINDOWID': '58720259', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/varshini-VirtualBox:@/tmp/.ICE-unix/1077,unix/varshini-VirtualBox:/tmp/.ICE-unix/1077', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/varshini/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-NakiFOVIBeNx/agent.1328', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/varshini', 'AMENT_PREFIX_PATH': '/home/varshini/ros2_ws/install/ros2_parameters:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/varshini/ros2_ws/build/ros2_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/varshini/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/varshini/ros2_ws/install/ros2_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.097765] (-) TimerEvent: {}
+[0.199680] (-) TimerEvent: {}
+[0.300702] (-) TimerEvent: {}
+[0.369635] (ros2_parameters) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.401016] (-) TimerEvent: {}
+[0.503471] (-) TimerEvent: {}
+[0.604855] (-) TimerEvent: {}
+[0.612640] (ros2_parameters) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.666499] (ros2_parameters) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705749] (-) TimerEvent: {}
+[0.808664] (-) TimerEvent: {}
+[0.909459] (-) TimerEvent: {}
+[1.010081] (-) TimerEvent: {}
+[1.074615] (ros2_parameters) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.110287] (-) TimerEvent: {}
+[1.115690] (ros2_parameters) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.119414] (ros2_parameters) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.120382] (ros2_parameters) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.158681] (ros2_parameters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.210685] (-) TimerEvent: {}
+[1.311948] (-) TimerEvent: {}
+[1.412615] (-) TimerEvent: {}
+[1.475907] (ros2_parameters) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.513657] (-) TimerEvent: {}
+[1.518648] (ros2_parameters) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.519153] (ros2_parameters) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.519862] (ros2_parameters) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.545935] (ros2_parameters) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.617631] (-) TimerEvent: {}
+[1.718956] (-) TimerEvent: {}
+[1.819510] (-) TimerEvent: {}
+[1.921039] (-) TimerEvent: {}
+[2.023806] (-) TimerEvent: {}
+[2.107448] (ros2_parameters) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.124264] (-) TimerEvent: {}
+[2.224999] (-) TimerEvent: {}
+[2.327503] (-) TimerEvent: {}
+[2.430146] (-) TimerEvent: {}
+[2.532836] (-) TimerEvent: {}
+[2.582904] (ros2_parameters) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.636612] (-) TimerEvent: {}
+[2.739357] (-) TimerEvent: {}
+[2.842413] (-) TimerEvent: {}
+[2.884655] (ros2_parameters) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.944311] (-) TimerEvent: {}
+[2.954755] (ros2_parameters) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[3.054429] (-) TimerEvent: {}
+[3.061640] (ros2_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.154744] (-) TimerEvent: {}
+[3.163785] (ros2_parameters) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.258976] (-) TimerEvent: {}
+[3.360395] (-) TimerEvent: {}
+[3.462935] (-) TimerEvent: {}
+[3.563752] (-) TimerEvent: {}
+[3.614911] (ros2_parameters) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[3.629874] (ros2_parameters) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.663902] (-) TimerEvent: {}
+[3.766661] (-) TimerEvent: {}
+[3.867897] (-) TimerEvent: {}
+[3.964747] (ros2_parameters) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[3.970606] (-) TimerEvent: {}
+[4.073265] (-) TimerEvent: {}
+[4.095609] (ros2_parameters) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[4.173417] (-) TimerEvent: {}
+[4.175894] (ros2_parameters) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.274454] (-) TimerEvent: {}
+[4.377066] (-) TimerEvent: {}
+[4.478417] (-) TimerEvent: {}
+[4.575678] (ros2_parameters) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.580779] (-) TimerEvent: {}
+[4.681654] (-) TimerEvent: {}
+[4.783963] (-) TimerEvent: {}
+[4.884693] (-) TimerEvent: {}
+[4.986758] (-) TimerEvent: {}
+[5.024596] (ros2_parameters) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.025322] (ros2_parameters) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[5.026789] (ros2_parameters) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.030774] (ros2_parameters) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.037825] (ros2_parameters) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.038709] (ros2_parameters) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.042060] (ros2_parameters) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.046524] (ros2_parameters) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.089716] (-) TimerEvent: {}
+[5.093752] (ros2_parameters) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.107962] (ros2_parameters) StdoutLine: {'line': b'-- Build files have been written to: /home/varshini/ros2_ws/build/ros2_parameters\n'}
+[5.137960] (ros2_parameters) CommandEnded: {'returncode': 0}
+[5.138787] (ros2_parameters) JobProgress: {'identifier': 'ros2_parameters', 'progress': 'build'}
+[5.141003] (ros2_parameters) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/varshini/ros2_ws/build/ros2_parameters', '--', '-j2', '-l2'], 'cwd': '/home/varshini/ros2_ws/build/ros2_parameters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'varshini', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1329', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/varshini', 'OLDPWD': '/home/varshini/ros2_ws/src/ros2_parameters', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/varshini/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'varshini', 'WINDOWID': '58720259', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/varshini-VirtualBox:@/tmp/.ICE-unix/1077,unix/varshini-VirtualBox:/tmp/.ICE-unix/1077', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/varshini/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-NakiFOVIBeNx/agent.1328', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/varshini', 'AMENT_PREFIX_PATH': '/home/varshini/ros2_ws/install/ros2_parameters:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/varshini/ros2_ws/build/ros2_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/varshini/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/varshini/ros2_ws/install/ros2_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.189911] (-) TimerEvent: {}
+[5.290409] (-) TimerEvent: {}
+[5.301577] (ros2_parameters) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/param_node.dir/src/param_node.cpp.o\x1b[0m\n'}
+[5.395936] (-) TimerEvent: {}
+[5.502070] (-) TimerEvent: {}
+[5.609261] (-) TimerEvent: {}
+[5.713748] (-) TimerEvent: {}
+[5.814808] (-) TimerEvent: {}
+[5.926982] (-) TimerEvent: {}
+[6.030447] (-) TimerEvent: {}
+[6.138062] (-) TimerEvent: {}
+[6.240145] (-) TimerEvent: {}
+[6.340700] (-) TimerEvent: {}
+[6.441292] (-) TimerEvent: {}
+[6.544835] (-) TimerEvent: {}
+[6.646627] (-) TimerEvent: {}
+[6.748608] (-) TimerEvent: {}
+[6.849124] (-) TimerEvent: {}
+[6.949820] (-) TimerEvent: {}
+[7.050720] (-) TimerEvent: {}
+[7.154638] (-) TimerEvent: {}
+[7.259339] (-) TimerEvent: {}
+[7.359863] (-) TimerEvent: {}
+[7.460772] (-) TimerEvent: {}
+[7.563512] (-) TimerEvent: {}
+[7.666637] (-) TimerEvent: {}
+[7.769211] (-) TimerEvent: {}
+[7.869700] (-) TimerEvent: {}
+[7.972925] (-) TimerEvent: {}
+[8.075929] (-) TimerEvent: {}
+[8.176604] (-) TimerEvent: {}
+[8.277270] (-) TimerEvent: {}
+[8.382341] (-) TimerEvent: {}
+[8.484911] (-) TimerEvent: {}
+[8.586520] (-) TimerEvent: {}
+[8.689611] (-) TimerEvent: {}
+[8.792756] (-) TimerEvent: {}
+[8.894350] (-) TimerEvent: {}
+[8.997445] (-) TimerEvent: {}
+[9.101569] (-) TimerEvent: {}
+[9.204131] (-) TimerEvent: {}
+[9.307260] (-) TimerEvent: {}
+[9.409361] (-) TimerEvent: {}
+[9.511542] (-) TimerEvent: {}
+[9.615038] (-) TimerEvent: {}
+[9.717359] (-) TimerEvent: {}
+[9.820617] (-) TimerEvent: {}
+[9.924670] (-) TimerEvent: {}
+[10.027588] (-) TimerEvent: {}
+[10.130616] (-) TimerEvent: {}
+[10.239780] (-) TimerEvent: {}
+[10.343183] (-) TimerEvent: {}
+[10.446719] (-) TimerEvent: {}
+[10.549363] (-) TimerEvent: {}
+[10.652611] (-) TimerEvent: {}
+[10.754737] (-) TimerEvent: {}
+[10.857817] (-) TimerEvent: {}
+[10.961281] (-) TimerEvent: {}
+[11.063928] (-) TimerEvent: {}
+[11.166614] (-) TimerEvent: {}
+[11.267365] (-) TimerEvent: {}
+[11.370308] (-) TimerEvent: {}
+[11.473702] (-) TimerEvent: {}
+[11.574833] (-) TimerEvent: {}
+[11.678466] (-) TimerEvent: {}
+[11.782149] (-) TimerEvent: {}
+[11.884225] (-) TimerEvent: {}
+[11.986846] (-) TimerEvent: {}
+[12.089616] (-) TimerEvent: {}
+[12.191835] (-) TimerEvent: {}
+[12.292368] (-) TimerEvent: {}
+[12.393054] (-) TimerEvent: {}
+[12.495879] (-) TimerEvent: {}
+[12.600988] (-) TimerEvent: {}
+[12.708636] (-) TimerEvent: {}
+[12.811302] (-) TimerEvent: {}
+[12.914463] (-) TimerEvent: {}
+[13.017445] (-) TimerEvent: {}
+[13.120186] (-) TimerEvent: {}
+[13.223095] (-) TimerEvent: {}
+[13.325810] (-) TimerEvent: {}
+[13.428844] (-) TimerEvent: {}
+[13.529385] (-) TimerEvent: {}
+[13.630018] (-) TimerEvent: {}
+[13.731817] (-) TimerEvent: {}
+[13.834863] (-) TimerEvent: {}
+[13.935434] (-) TimerEvent: {}
+[14.036170] (-) TimerEvent: {}
+[14.137054] (-) TimerEvent: {}
+[14.239187] (-) TimerEvent: {}
+[14.339863] (-) TimerEvent: {}
+[14.440617] (-) TimerEvent: {}
+[14.543071] (-) TimerEvent: {}
+[14.643666] (-) TimerEvent: {}
+[14.744872] (-) TimerEvent: {}
+[14.845960] (-) TimerEvent: {}
+[14.948006] (-) TimerEvent: {}
+[15.048610] (-) TimerEvent: {}
+[15.149191] (-) TimerEvent: {}
+[15.252032] (-) TimerEvent: {}
+[15.352986] (-) TimerEvent: {}
+[15.453599] (-) TimerEvent: {}
+[15.554922] (-) TimerEvent: {}
+[15.656894] (-) TimerEvent: {}
+[15.757634] (-) TimerEvent: {}
+[15.858669] (-) TimerEvent: {}
+[15.960278] (-) TimerEvent: {}
+[16.062875] (-) TimerEvent: {}
+[16.163491] (-) TimerEvent: {}
+[16.264226] (-) TimerEvent: {}
+[16.366226] (-) TimerEvent: {}
+[16.467321] (-) TimerEvent: {}
+[16.568645] (-) TimerEvent: {}
+[16.672063] (-) TimerEvent: {}
+[16.772678] (-) TimerEvent: {}
+[16.874899] (-) TimerEvent: {}
+[16.979931] (-) TimerEvent: {}
+[17.083564] (-) TimerEvent: {}
+[17.184214] (-) TimerEvent: {}
+[17.285126] (-) TimerEvent: {}
+[17.391113] (-) TimerEvent: {}
+[17.493839] (-) TimerEvent: {}
+[17.599236] (-) TimerEvent: {}
+[17.700426] (-) TimerEvent: {}
+[17.807833] (-) TimerEvent: {}
+[17.911146] (-) TimerEvent: {}
+[18.017458] (-) TimerEvent: {}
+[18.123352] (-) TimerEvent: {}
+[18.224750] (-) TimerEvent: {}
+[18.331143] (-) TimerEvent: {}
+[18.432947] (-) TimerEvent: {}
+[18.534069] (-) TimerEvent: {}
+[18.637057] (-) TimerEvent: {}
+[18.740085] (-) TimerEvent: {}
+[18.840555] (-) TimerEvent: {}
+[18.941144] (-) TimerEvent: {}
+[19.043966] (-) TimerEvent: {}
+[19.154512] (-) TimerEvent: {}
+[19.255174] (-) TimerEvent: {}
+[19.357898] (-) TimerEvent: {}
+[19.458689] (-) TimerEvent: {}
+[19.559676] (-) TimerEvent: {}
+[19.660256] (-) TimerEvent: {}
+[19.762890] (-) TimerEvent: {}
+[19.865879] (-) TimerEvent: {}
+[19.969162] (ros2_parameters) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable param_node\x1b[0m\n'}
+[19.970084] (-) TimerEvent: {}
+[20.076216] (-) TimerEvent: {}
+[20.179047] (-) TimerEvent: {}
+[20.281113] (-) TimerEvent: {}
+[20.381748] (-) TimerEvent: {}
+[20.483653] (-) TimerEvent: {}
+[20.584236] (-) TimerEvent: {}
+[20.685910] (-) TimerEvent: {}
+[20.790847] (-) TimerEvent: {}
+[20.893146] (-) TimerEvent: {}
+[20.996231] (-) TimerEvent: {}
+[21.087053] (ros2_parameters) StdoutLine: {'line': b'[100%] Built target param_node\n'}
+[21.096430] (-) TimerEvent: {}
+[21.122995] (ros2_parameters) CommandEnded: {'returncode': 0}
+[21.125715] (ros2_parameters) JobProgress: {'identifier': 'ros2_parameters', 'progress': 'install'}
+[21.159198] (ros2_parameters) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/varshini/ros2_ws/build/ros2_parameters'], 'cwd': '/home/varshini/ros2_ws/build/ros2_parameters', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'varshini', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1329', 'XDG_SESSION_TYPE': 'x11', 'COMPIZ_CONFIG_PROFILE': 'mint', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/varshini', 'OLDPWD': '/home/varshini/ros2_ws/src/ros2_parameters', 'DESKTOP_SESSION': 'xfce', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/varshini/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'varshini', 'WINDOWID': '58720259', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c2', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/varshini-VirtualBox:@/tmp/.ICE-unix/1077,unix/varshini-VirtualBox:/tmp/.ICE-unix/1077', 'GDM_LANG': 'en_US', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xfce', 'XAUTHORITY': '/home/varshini/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/tmp/ssh-NakiFOVIBeNx/agent.1328', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/varshini', 'AMENT_PREFIX_PATH': '/home/varshini/ros2_ws/install/ros2_parameters:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xfce', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'XDG_VTNR': '7', 'PWD': '/home/varshini/ros2_ws/build/ros2_parameters', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xfce:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xfce4:/home/varshini/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/varshini/ros2_ws/install/ros2_parameters:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[21.182855] (ros2_parameters) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.183713] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/lib/ros2_parameters/param_node\n'}
+[21.185205] (ros2_parameters) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/varshini/ros2_ws/install/ros2_parameters/lib/ros2_parameters/param_node" to ""\n'}
+[21.186030] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ament_index/resource_index/package_run_dependencies/ros2_parameters\n'}
+[21.186827] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ament_index/resource_index/parent_prefix_path/ros2_parameters\n'}
+[21.187673] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/environment/ament_prefix_path.sh\n'}
+[21.188198] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/environment/ament_prefix_path.dsv\n'}
+[21.188705] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/environment/path.sh\n'}
+[21.189352] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/environment/path.dsv\n'}
+[21.189758] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/local_setup.bash\n'}
+[21.190099] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/local_setup.sh\n'}
+[21.190622] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/local_setup.zsh\n'}
+[21.191077] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/local_setup.dsv\n'}
+[21.191338] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/package.dsv\n'}
+[21.191852] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ament_index/resource_index/packages/ros2_parameters\n'}
+[21.192247] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/cmake/ros2_parametersConfig.cmake\n'}
+[21.193033] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/cmake/ros2_parametersConfig-version.cmake\n'}
+[21.193397] (ros2_parameters) StdoutLine: {'line': b'-- Installing: /home/varshini/ros2_ws/install/ros2_parameters/share/ros2_parameters/package.xml\n'}
+[21.196859] (-) TimerEvent: {}
+[21.199206] (ros2_parameters) CommandEnded: {'returncode': 0}
+[21.259615] (ros2_parameters) JobEnded: {'identifier': 'ros2_parameters', 'rc': 0}
+[21.262462] (-) EventReactorShutdown: {}

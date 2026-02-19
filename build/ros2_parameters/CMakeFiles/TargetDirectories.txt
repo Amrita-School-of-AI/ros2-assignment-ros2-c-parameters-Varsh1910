@@ -1,0 +1,10 @@
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/uninstall.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/ros2_parameters_uninstall.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/param_node.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/test.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/edit_cache.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/rebuild_cache.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/list_install_components.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/install.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/install/local.dir
+/home/varshini/ros2_ws/build/ros2_parameters/CMakeFiles/install/strip.dir
