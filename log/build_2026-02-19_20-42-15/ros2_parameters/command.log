@@ -1,6 +1,0 @@
-Invoking command in '/home/varshini/ros2_ws/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/varshini/ros2_ws/src/ros2_parameters -DCMAKE_INSTALL_PREFIX=/home/varshini/ros2_ws/install/ros2_parameters
-Invoked command in '/home/varshini/ros2_ws/build/ros2_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/varshini/ros2_ws/src/ros2_parameters -DCMAKE_INSTALL_PREFIX=/home/varshini/ros2_ws/install/ros2_parameters
-Invoking command in '/home/varshini/ros2_ws/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/varshini/ros2_ws/build/ros2_parameters -- -j2 -l2
-Invoked command in '/home/varshini/ros2_ws/build/ros2_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/varshini/ros2_ws/build/ros2_parameters -- -j2 -l2
-Invoking command in '/home/varshini/ros2_ws/build/ros2_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/varshini/ros2_ws/build/ros2_parameters
-Invoked command in '/home/varshini/ros2_ws/build/ros2_parameters' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/varshini/ros2_ws/build/ros2_parameters
