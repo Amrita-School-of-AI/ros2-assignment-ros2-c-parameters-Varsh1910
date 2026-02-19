@@ -8,7 +8,8 @@ using namespace std::chrono_literals;
 class ParamNode : public rclcpp::Node
 {
 public:
-    ParamNode() : Node("param_node")
+    ParamNode() : Node("parameters_node")
+
     {
         // Declare parameters with default values
         this->declare_parameter<std::string>("robot_name", "DefaultBot");

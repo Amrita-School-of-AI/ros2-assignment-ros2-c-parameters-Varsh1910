@@ -20,11 +20,11 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
-add_executable(param_node src/param_node.cpp)
-ament_target_dependencies(param_node rclcpp)
+add_executable(parameters_node src/param_node.cpp)
+ament_target_dependencies(parameters_node rclcpp)
 
 install(TARGETS
-  param_node
+  parameters_node
   DESTINATION lib/${PROJECT_NAME}
 )
 
